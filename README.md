@@ -1,5 +1,5 @@
 ## Description
-Tool to analyze the charge evolution in a reaction pathway as investigated with the nudged elastic band (NEB) method.
+Tool to analyze the charge evolution in a reaction pathway as derived from the nudged elastic band (NEB) method in VASP.
 
 ```
 baderVis
