@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-
+# This script is part of vaspkit 0.73
 """
 @author: Jin-Cheng Liu, Nxu
 @file: bader2pqr

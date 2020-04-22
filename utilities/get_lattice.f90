@@ -1,3 +1,4 @@
+!This script is part of vaspkit 0.73
 PROGRAM PRETREAT
 	IMPLICIT NONE
 	INTEGER :: I,J

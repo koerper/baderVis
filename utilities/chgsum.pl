@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 #;-*- Perl -*-
+# downloaded from http://theory.cm.utexas.edu/vtsttools/scripts.html
 
 @ARGV>=2 || die "usage: chgsum.pl <CHGCAR1> <CHGCAR2> <fact1> <fact2>\n";
 
