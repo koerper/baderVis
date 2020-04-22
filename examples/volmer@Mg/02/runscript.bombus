@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH -J volmer_bader_02
+#SBATCH -p ib
+#SBATCH --ntasks 72
+#SBATCH --cpus-per-task 1
+#SBATCH --time=300:00:00
+#SBATCH --constraint OS7
+#SBATCH --nodes 3
+
+ulimit -s unlimited
+
+# Module initialisieren und Modul fuer Intel (wegen Intel MPI) laden
+. /etc/profile.d/module.sh
+module load intel/2017
+module load vasp/5.4.4-vtst
+
+
+# Erzeuge Hostfile, in dem steht wohin der Job verteilt werden soll
+srun -l hostname | awk '{print $2}' | sort > machinefile_$SLURM_JOBID
+
+# Rechnung starten
+exe="mpirun -machinefile machinefile_$SLURM_JOBID -np $SLURM_NTASKS vasp_std"
+
+
+$exe
+
+exit

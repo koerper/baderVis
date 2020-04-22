@@ -1,0 +1,33 @@
+SYSTEM = Mg_slab_in_a_box
+
+GGA = BO
+PARAM1 = 0.1833333333
+PARAM2 = 0.2200000000
+LUSE_VDW = .TRUE.
+AGGAC = 0.0000
+LASPH = .TRUE.
+
+ENCUT = 520
+PREC   = Accurate
+NELMIN = 6
+NELM = 300
+
+EDIFF  = 50E-7
+ISMEAR = -5
+ALGO   = V
+LREAL  = AUTO
+
+LWAVE = F
+LCHARG = T
+
+LPLANE = .TRUE.
+LSCALU = .FALSE.
+
+IDIPOL = 3                                                                                              
+LDIPOL = T                                                                                              
+
+LVTOT = T
+LVHAR = T
+LAECHG = T
+
+NCORE   = 24

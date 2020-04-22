@@ -1,0 +1,781 @@
+ running on   72 total cores
+ distrk:  each k-point on   72 cores,    1 groups
+ distr:  one band on   24 cores,    3 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jun 08 2018 12:06:12) complex          
+  
+ POSCAR found type information on POSCAR  Mg O  H 
+ POSCAR found :  3 types and      63 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have switched on vdW-DFT.                                          |
+|      This routine was written and supplied by Jiri Klimes.                  |
+|      We recommed that you carefully read and cite the following             |
+|      publication                                                            |
+|      J. Klimes, D.R. Bowler, A. Michelides                                  |
+|        J. Phys.: Cond Matt. 22 022201 (2010)                                |
+|      J. Klimes, D.R. Bowler, A. Michelides                                  |
+|        Phys. Rev. B. 83, 195131 (2011)                                      |
+|      and references therein.                                                |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  Mg O  H 
+ POSCAR found :  3 types and      63 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ augmentation electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ total        electrons   138.066261003821     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ augmentation electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ total        electrons   482.444742622886     
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+Total vdW correction in eV:     53.9234666
+RMM:   1     0.124242068251E+04    0.12424E+04   -0.27904E+04   510   0.785E+02
+RMM:   2     0.545155912789E+03   -0.69726E+03   -0.75369E+03   510   0.166E+02
+RMM:   3     0.311175003758E+03   -0.23398E+03   -0.29805E+03   510   0.828E+01
+RMM:   4     0.135160113051E+03   -0.17601E+03   -0.15134E+03   510   0.787E+01
+RMM:   5     0.178480948628E+02   -0.11731E+03   -0.93792E+02   510   0.628E+01
+RMM:   6    -0.444255905597E+02   -0.62274E+02   -0.47908E+02   510   0.436E+01
+RMM:   7    -0.695190334365E+02   -0.25093E+02   -0.19318E+02   510   0.251E+01
+RMM:   8    -0.758657756206E+02   -0.63467E+01   -0.55224E+01   510   0.133E+01
+RMM:   9    -0.780568304395E+02   -0.21911E+01   -0.21015E+01  1468   0.753E+00
+RMM:  10    -0.783790357064E+02   -0.32221E+00   -0.32973E+00  1757   0.287E+00
+RMM:  11    -0.783820407029E+02   -0.30050E-02   -0.17774E-01  1715   0.727E-01
+RMM:  12    -0.783852578386E+02   -0.32171E-02   -0.37236E-02  1819   0.303E-01    0.195E+01
+Total vdW correction in eV:     53.9083344
+RMM:  13    -0.683955850370E+02    0.99897E+01   -0.56510E+01  1436   0.130E+01    0.752E+00
+Total vdW correction in eV:     53.8430942
+RMM:  14    -0.738744504130E+02   -0.54789E+01   -0.32534E+00  1537   0.288E+00    0.652E+00
+Total vdW correction in eV:     53.8258458
+RMM:  15    -0.690549641038E+02    0.48195E+01   -0.14577E+00  1507   0.106E+00    0.525E+00
+Total vdW correction in eV:     53.7420544
+RMM:  16    -0.679381459146E+02    0.11168E+01   -0.11099E+00  1461   0.196E+00    0.202E+00
+Total vdW correction in eV:     53.7231202
+RMM:  17    -0.679236029257E+02    0.14543E-01   -0.24264E-01  1327   0.109E+00    0.841E-01
+Total vdW correction in eV:     53.7357371
+RMM:  18    -0.679202440361E+02    0.33589E-02   -0.14688E-01  1610   0.709E-01    0.528E-01
+Total vdW correction in eV:     53.7417806
+RMM:  19    -0.678965434911E+02    0.23701E-01   -0.19921E-02  1455   0.275E-01    0.373E-01
+Total vdW correction in eV:     53.7447068
+RMM:  20    -0.678833612343E+02    0.13182E-01   -0.13119E-02  1551   0.208E-01    0.119E-01
+Total vdW correction in eV:     53.7515097
+RMM:  21    -0.678796534618E+02    0.37078E-02   -0.40934E-03  1543   0.118E-01    0.641E-02
+Total vdW correction in eV:     53.7591018
+RMM:  22    -0.678743720958E+02    0.52814E-02   -0.13255E-03  1434   0.641E-02    0.396E-02
+Total vdW correction in eV:     53.7650581
+RMM:  23    -0.678713059262E+02    0.30662E-02   -0.46023E-04  1408   0.389E-02    0.225E-02
+Total vdW correction in eV:     53.7697882
+RMM:  24    -0.678716614458E+02   -0.35552E-03   -0.23175E-04  1196   0.300E-02    0.239E-02
+Total vdW correction in eV:     53.7725915
+RMM:  25    -0.678722317266E+02   -0.57028E-03   -0.15192E-04  1094   0.241E-02    0.110E-02
+Total vdW correction in eV:     53.7748628
+RMM:  26    -0.678721986760E+02    0.33051E-04   -0.24925E-04  1035   0.239E-02    0.826E-03
+Total vdW correction in eV:     53.7752778
+RMM:  27    -0.678720660900E+02    0.13259E-03   -0.18785E-04   989   0.180E-02    0.279E-03
+Total vdW correction in eV:     53.7753749
+RMM:  28    -0.678720546509E+02    0.11439E-04   -0.85785E-05   914   0.107E-02    0.198E-03
+Total vdW correction in eV:     53.7753312
+RMM:  29    -0.678720849480E+02   -0.30297E-04   -0.29901E-05   828   0.726E-03    0.854E-04
+Total vdW correction in eV:     53.7752177
+RMM:  30    -0.678721293548E+02   -0.44407E-04   -0.79842E-05   876   0.739E-03    0.650E-04
+Total vdW correction in eV:     53.7751622
+RMM:  31    -0.678721345596E+02   -0.52048E-05   -0.50968E-05   775   0.918E-03    0.480E-04
+Total vdW correction in eV:     53.7750771
+RMM:  32    -0.678721577365E+02   -0.23177E-04   -0.68778E-05   736   0.940E-03    0.113E-03
+Total vdW correction in eV:     53.7750546
+RMM:  33    -0.678721523147E+02    0.54218E-05   -0.63425E-06   674   0.379E-03    0.636E-04
+Total vdW correction in eV:     53.7750414
+RMM:  34    -0.678721327619E+02    0.19553E-04   -0.40615E-06   798   0.319E-03    0.211E-04
+Total vdW correction in eV:     53.7750313
+RMM:  35    -0.678721121386E+02    0.20623E-04   -0.94273E-06   957   0.492E-03    0.229E-04
+Total vdW correction in eV:     53.7750315
+RMM:  36    -0.678720855776E+02    0.26561E-04   -0.18438E-05  1031   0.728E-03    0.134E-04
+Total vdW correction in eV:     53.7750316
+RMM:  37    -0.678720819340E+02    0.36437E-05   -0.36741E-06   957   0.469E-03
+Total vdW correction in eV:     53.7750348
+Total vdW correction in eV:     53.7750310
+   1 F= -.67872082E+02 E0= -.67872082E+02  d E =0.000000E+00
+ augmentation electrons   4.45837161648432     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ augmentation electrons   4.45837161648432     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ soft         electrons   133.583192524103     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     
+ total        electrons   138.041564140587     

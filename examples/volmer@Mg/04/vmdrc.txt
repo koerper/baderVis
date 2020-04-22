@@ -1,0 +1,3 @@
+pbc set {    9.556   9.556  32.625  90.000  90.000 120.000 }
+pbc box -on
+color Display Background white
