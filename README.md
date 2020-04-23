@@ -1,3 +1,5 @@
+![Cover Art](templates/cover.png)
+
 ## Description
 Tool to analyze the charge evolution in a reaction pathway as derived from the nudged elastic band (NEB) method in VASP. The tool makes use of a few scripts included in other codes:
 * `bader2pqr.py`,`get_lattice.exe` and `get_lattice.f90` are part of [vaspkit 0.73](http://vaspkit.sourceforge.net/)
