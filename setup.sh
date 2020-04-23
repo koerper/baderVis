@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #### Set according to your machine ####
-vmd_path='usr/local/bin/vmd'
+vmd_path='/usr/local/bin/vmd'
 bader_path='/home/tim/bin/bader'
 openbabel_path='/usr/local/bin/babel'
 #######################################

@@ -37,6 +37,7 @@ baderVis
 3. Add `.../baderVis/bin` to your PATH
 
 ## Workflow
+#### Visualize the Bader charge evolution of a NEB pathway
 1. Start from the NEB folder structure	
 ```console
 foo@bar:~$ ls
@@ -45,17 +46,41 @@ foo@bar:~$ ls
 
 2. Set up Bader charge analyses
   * Adapt the template files in `.../baderVis/templates/` according to your system and cluster architecture
-  * Use `baderSet.sh` at the base of the NEB folder structure to create a subfolder `bader` and setup Bader charge anaylses for the respective NEB images.	
+  * Use `baderSet.sh -m neb` at the base of the NEB folder structure to create a subfolder `bader` and setup Bader charge anaylses for the respective NEB images.	
   * Run simulations
 ```console
-foo@bar:~$ baderSet.sh 00 09
+foo@bar:~$ baderSet.sh -m neb
 foo@bar:~$ cd bader
 foo@bar:~$ for i in `seq -w 00 09`; do cd $i; sbatch runscript; cd ..; done
 ```
 
 3. Process the Bader charge analyses
 ```console
-foo@bar:~$ baderProc.sh 00 09
+foo@bar:~$ baderProc.sh -m neb
+```
+
+4. Visualize the Bader charges in the investigated system
+
+```console
+foo@bar:~$ baderVis.sh
+```
+
+#### Visualize the Bader charges of a single Bader calculation
+1. Start from the folder containing your optimized system	
+
+2. Set up a Bader charge analysis
+  * Adapt the template files in `.../baderVis/templates/` according to your system and cluster architecture
+  * Use `baderSet.sh -m single` in your folder to create a subfolder `bader` and setup a Bader charge anaylsis for the system.	
+  * Run simulation
+```console
+foo@bar:~$ baderSet.sh -m single
+foo@bar:~$ cd bader
+foo@bar:~$ sbatch runscript
+```
+
+3. Process the Bader charge analysis
+```console
+foo@bar:~$ baderProc.sh -m single
 ```
 
 4. Visualize the Bader charges in the investigated system
