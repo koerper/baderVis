@@ -31,6 +31,11 @@ baderVis
 - [Bader analysis program](http://theory.cm.utexas.edu/henkelman/code/bader/)
 - [VMD 1.9.3](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
 
+## Installation
+1. Modify `setup.sh` and add the required system paths
+2. Execute `\.setup.sh`
+3. Add `.../baderVis/bin` to your PATH
+
 ## Workflow
 1. Start from the NEB folder structure	
 ```console
