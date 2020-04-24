@@ -24,10 +24,10 @@ baderVis
 │   
 └───utilities
     │   bader.tcl
-    │   bader2pqr.py (part of [vaspkit 0.73](http://vaspkit.sourceforge.net/))
-    │   chgsum.pl (part of [VTST tools](https://theory.cm.utexas.edu/vtsttools/scripts.html))
-    │   get_lattice.exe (part of [vaspkit 0.73](http://vaspkit.sourceforge.net/))
-    │   get_lattice.f90 (part of [vaspkit 0.73](http://vaspkit.sourceforge.net/))
+    │   bader2pqr.py
+    │   chgsum.pl
+    │   get_lattice.exe
+    │   get_lattice.f90
 ```
 
 ## Requirements
