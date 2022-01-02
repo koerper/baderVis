@@ -31,7 +31,7 @@ baderVis
 ```
 
 ## Requirements
-- [Open Babel](http://openbabel.org/wiki/Category:Installation)
+- [Open Babel 2.4.1](http://openbabel.org/wiki/Category:Installation)
 - [Bader analysis program](http://theory.cm.utexas.edu/henkelman/code/bader/)
 - [VMD 1.9.3](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
 
